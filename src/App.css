@@ -1,0 +1,45 @@
+.Button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(155, 155, 155);
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.Button.clear {
+  background-color: palevioletred;
+}
+.Button.toggled {
+  background-color: blueviolet;
+}
+
+.DateView {
+  visibility: hidden;
+  font-size: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  text-align: center
+}
+
+.DateView.visible {
+  visibility: visible;
+}
+
+.Container {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+
+.Container.row {
+  flex-direction: row;
+}
